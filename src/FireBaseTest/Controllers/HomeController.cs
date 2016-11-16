@@ -13,6 +13,12 @@ namespace FireBaseTest.Controllers
             return View();
         }
 
+        public IActionResult Firebase()
+        {
+            return View();
+        }
+
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
