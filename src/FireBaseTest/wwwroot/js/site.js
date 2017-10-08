@@ -10,6 +10,7 @@
     };
     firebase.initializeApp(config);
 
+    // Create basic categories
     firebase.database().ref('categories/1').set({ name: "Desk" });
     firebase.database().ref('categories/2').set({ name: "Chair" });
     firebase.database().ref('categories/3').set({ name: "Door" });
